@@ -8,7 +8,9 @@ eventsApp.controller('EventController',
 
         $scope.snippet = '<span style="color:red">hi there</span>';
 
-        $scope.event = eventData.event;
+        eventData.getEvent(function(event){
+            $scope.event = event;
+        });
 
         $scope.upVoteSession = function(session){
             session.upVoteCount++;

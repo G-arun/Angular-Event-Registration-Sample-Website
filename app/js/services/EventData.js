@@ -1,5 +1,14 @@
-eventsApp.factory('eventData', function eventData() {
+eventsApp.factory('eventData', function eventData($http, $log) {
      return{
+         getEvent: function(successcb){
+             $http({method: 'GET', url: '/data/event/1'})
+                 .success(function(data, status, headers, config){
+                     successcb(data);
+                 })
+                 .error(function(data, status, headers, config){
+                     $log(data, status, headers, config);
+                 });
+         },
          event: {
              name: "Angular Boot Camp",
              date: "1/1/2013",
