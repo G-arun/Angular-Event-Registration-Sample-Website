@@ -6,7 +6,15 @@ eventsApp.factory('eventData', function eventData($http, $log) {
                      successcb(data);
                  })
                  .error(function(data, status, headers, config){
-                     $log(data, status, headers, config);
+                     //$log(data, status, headers, config);
+                     console.log('data');
+                     console.log(data);
+                     console.log('status');
+                     console.log(status);
+                     console.log('headers');
+                     console.log(headers);
+                     console.log('config');
+                     console.log(config);
                  });
          },
          event: {
