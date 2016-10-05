@@ -9,11 +9,12 @@ eventsApp.controller('EventController',
         $scope.snippet = '<span style="color:red">hi there</span>';
 
         eventData.getEvent()
-            .success(function(event){
+            .$promise.then(function(event){
                 $scope.event = event;
+                console.log(event);
             })
-            .error(function(data, status, headers, config){
-                $log.warn(data, status, headers(), config);
+            .catch(function(response){
+                console.log(response);
             });
 
         $scope.upVoteSession = function(session){
