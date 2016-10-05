@@ -1,21 +1,7 @@
-eventsApp.factory('eventData', function eventData($http, $log) {
+eventsApp.factory('eventData', function eventData($http) {
      return{
-         getEvent: function(successcb){
-             $http({method: 'GET', url: '/data/event/1'})
-                 .success(function(data, status, headers, config){
-                     successcb(data);
-                 })
-                 .error(function(data, status, headers, config){
-                     //$log(data, status, headers, config);
-                     console.log('data');
-                     console.log(data);
-                     console.log('status');
-                     console.log(status);
-                     console.log('headers');
-                     console.log(headers);
-                     console.log('config');
-                     console.log(config);
-                 });
+         getEvent: function(){
+             return $http({method: 'GET', url: '/data/event/1'});
          },
          event: {
              name: "Angular Boot Camp",
