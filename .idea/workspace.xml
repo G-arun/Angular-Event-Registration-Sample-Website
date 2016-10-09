@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a84cc9a7-58c1-42c9-a7d2-5ca47806a92b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services/ExceptionHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/LocaleSampleController.js" afterPath="$PROJECT_DIR$/app/js/controllers/LocaleSampleController.js" />
-    </list>
+    <list default="true" id="a84cc9a7-58c1-42c9-a7d2-5ca47806a92b" name="Default" comment="" />
     <ignored path="DemoApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -427,12 +423,12 @@
       <workItem from="1475424982096" duration="2112000" />
       <workItem from="1475462286170" duration="29442000" />
       <workItem from="1475654133271" duration="2297000" />
-      <workItem from="1475990667829" duration="2322000" />
+      <workItem from="1475990667829" duration="2886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36173000" />
+    <option name="totallyTimeSpent" value="36737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
