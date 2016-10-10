@@ -12,6 +12,12 @@ var eventsApp = angular.module('eventsApp', ['ngSanitize', 'ngResource', 'ngCook
                 templateUrl: 'templates/EventList.html',
                 controller: 'EventListController'
             });
+        $routeProvider.when('/event/:eventId',
+            {
+                templateUrl: 'templates/EventDetails.html',
+                controller: 'EventController'
+            });
+        $routeProvider.otherwise({redirectTo: '/events'});
     })
     .factory('myCache', function($cacheFactory){
         return $cacheFactory('myCache', {capacity:3});
