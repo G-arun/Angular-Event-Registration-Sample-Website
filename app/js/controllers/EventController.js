@@ -1,14 +1,14 @@
 'use strict';
 
 eventsApp.controller('EventController',
-    function EventController($scope, eventData, $anchorScroll){
+    function EventController($scope, eventData, $anchorScroll, $routeParams){
 
         // descending
         $scope.sortorder = 'name';
 
         $scope.snippet = '<span style="color:red">hi there</span>';
 
-        eventData.getEvent()
+        eventData.getEvent($routeParams.eventId)
             .$promise.then(function(event){
                 $scope.event = event;
                 console.log(event);
