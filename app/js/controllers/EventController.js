@@ -14,14 +14,8 @@ eventsApp.controller('EventController',
         console.log($route.current.params.bar);
         console.log($route.current.params.eventId);
 
-        eventData.getEvent($routeParams.eventId)
-            .$promise.then(function(event){
-                $scope.event = event;
-                console.log(event);
-            })
-            .catch(function(response){
-                console.log(response);
-            });
+
+        $scope.event = $route.current.locals.event;
 
         $scope.upVoteSession = function(session){
             session.upVoteCount++;
