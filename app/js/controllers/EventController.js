@@ -10,6 +10,7 @@ eventsApp.controller('EventController',
 
         console.log($route.current.foo);
         // try http://localhost:8000/#/event/1?bar=2
+        // or http://localhost:8000/event/1?bar=2
         console.log($route.current.params.bar);
         console.log($route.current.params.eventId);
 

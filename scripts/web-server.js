@@ -23,6 +23,8 @@ app.get('/data/event/:id', events.get);
 app.get('/data/event', events.getAll);
 app.post('/data/event/:id', events.save);
 
+app.get('*', function(req, res){res.sendFile(rootPath + '/app/index.html');});
+
 // listening to port 8000
 app.listen(8000);
 console.log('Listening to port 8000...');
