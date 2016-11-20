@@ -5,15 +5,16 @@ eventsApp
         return {
             restrict: 'E',
             replace: true,
+            transclude: true,
             priority: 1,
-            template: "<button class='btn' ng-Click='sayHello()'>Say Hello</button>",
+            template: "<div><button class='btn' ng-Click='sayHello()'>Say Hello</button><div ng-transclude></div></div>",
             controller: 'GreetingController'
         };
     })
     .directive('finnish', function(){
         return {
             restrict: 'A',
-            require: 'greeting',
+            require: '^greeting',
             priority: 1,
             link: function(scope, element, attrs, controller){
                 controller.addGreeting('hei');
@@ -24,7 +25,7 @@ eventsApp
     .directive('hindi', function(){
         return {
             restrict: 'A',
-            require: 'greeting',
+            require: '^greeting',
             priority: 2,
             link : function(scope, element, attrs, controller){
                 controller.addGreeting('namaste');
