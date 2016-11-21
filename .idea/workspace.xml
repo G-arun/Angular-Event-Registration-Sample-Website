@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84cc9a7-58c1-42c9-a7d2-5ca47806a92b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/eventDataSpec.js" afterPath="$PROJECT_DIR$/test/unit/eventDataSpec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/durationSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DemoApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventDataSpec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eventDataSpec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/eventDataSpec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
               <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="durationSpec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/unit/durationSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -75,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/js/services/GravatarUrlBuilder.js" />
         <option value="$PROJECT_DIR$/app/NewEvent.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
         <option value="$PROJECT_DIR$/app/EventDetails.html" />
@@ -126,6 +134,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/unit/eventDataSpec.js" />
+        <option value="$PROJECT_DIR$/test/unit/durationSpec.js" />
       </list>
     </option>
   </component>
@@ -473,17 +482,11 @@
       <workItem from="1476790554417" duration="385000" />
       <workItem from="1479615807027" duration="2228000" />
       <workItem from="1479624270823" duration="13358000" />
-      <workItem from="1479696998535" duration="2739000" />
+      <workItem from="1479696998535" duration="3125000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Karma_Server - 2016.11.21 at 01h 23m 46s.xml">
-      <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
-    </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 01h 24m 05s.xml">
-      <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
-    </history-entry>
     <history-entry file="Karma_Server - 2016.11.21 at 01h 24m 26s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
@@ -508,9 +511,15 @@
     <history-entry file="Karma_Server - 2016.11.21 at 11h 46m 32s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
+    <history-entry file="Karma_Server - 2016.11.21 at 11h 52m 26s.xml">
+      <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Karma_Server - 2016.11.21 at 11h 52m 38s.xml">
+      <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63410000" />
+    <option name="totallyTimeSpent" value="63796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
@@ -553,13 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/CacheSampleController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/FilterSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -896,6 +898,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/durationSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
