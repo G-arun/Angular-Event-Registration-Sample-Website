@@ -17,6 +17,10 @@ describe('EditProfileControllerSpec', function(){
         var email = 'kev@kev.com';
         scope.getGravatarUrl(email);
 
+        // verify that any email address gets passed
+        // into the call to get Gravatar Url,
+        // is the same email address that gets
+        // passed into buildGravatarUrl
         expect(mockGravatarUrlBuilder.buildGravatarUrl.calledWith(email)).toBe(true);
 
 
