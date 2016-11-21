@@ -4,7 +4,11 @@ module.exports = function(config){
     basePath : '../app',
 
     preprocessors: {
-      '**/*.html': 'ng-html2js'
+      '**/*.html':'ng-html2js'
+    },
+
+    ngHtml2JsPreprocessor: {
+      prependPrefix: '/'
     },
 
     files : [
@@ -14,7 +18,7 @@ module.exports = function(config){
       '../test/lib/sinon-1.15.0.js',
       'js/**/*.js',
       '../test/unit/**/*.js',
-      'templates/directives/*/html'
+      '**/*.html'
     ],
 
     autoWatch : true,

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84cc9a7-58c1-42c9-a7d2-5ca47806a92b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/EventThumbnailSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
     </list>
     <ignored path="DemoApp.iws" />
@@ -27,66 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditProfileControllerSpec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/EditProfileControllerSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventDataSpec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/eventDataSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-              <folding>
-                <marker date="1479699991000" expanded="true" signature="47:1612" ph="{...}" />
-                <marker date="1479699991000" expanded="true" signature="1372:1605" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="durationSpec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/durationSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding>
-                <marker date="1479700357000" expanded="true" signature="46:250" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditProfileController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/EditProfileController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventListController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/EventListController.js">
+      <file leaf-file-name="EventThumbnailSpec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/EventThumbnailSpec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/karma.conf.js">
+      <file leaf-file-name="EventList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/EventList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -96,7 +51,17 @@
         <entry file="file://$PROJECT_DIR$/app/js/directives/eventThumbnail.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="42" />
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -110,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
         <option value="$PROJECT_DIR$/app/EventDetails.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/CacheSampleController.js" />
         <option value="$PROJECT_DIR$/app/CacheSample.html" />
@@ -160,6 +124,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/unit/eventDataSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/durationSpec.js" />
+        <option value="$PROJECT_DIR$/test/unit/EventThumbnailSpec.js" />
         <option value="$PROJECT_DIR$/test/karma.conf.js" />
       </list>
     </option>
@@ -508,44 +473,44 @@
       <workItem from="1476790554417" duration="385000" />
       <workItem from="1479615807027" duration="2228000" />
       <workItem from="1479624270823" duration="13358000" />
-      <workItem from="1479696998535" duration="3621000" />
+      <workItem from="1479696998535" duration="4788000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Karma_Server - 2016.11.21 at 01h 24m 26s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 14m 24s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 01h 24m 32s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 14m 31s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 03m 56s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 15m 10s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 22m 59s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 15m 17s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 23m 08s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 15m 26s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 30m 20s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 16m 16s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 34m 21s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 19m 45s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 46m 32s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 20m 25s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 52m 26s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 20m 40s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Karma_Server - 2016.11.21 at 11h 52m 38s.xml">
+    <history-entry file="Karma_Server - 2016.11.21 at 12h 21m 13s.xml">
       <configuration name="Karma Server" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64292000" />
+    <option name="totallyTimeSpent" value="65459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
@@ -588,13 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/FilterSampleController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/TimeoutSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -754,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/EventList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -929,15 +880,31 @@
     <entry file="file://$PROJECT_DIR$/app/js/directives/eventThumbnail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="42" />
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/EventList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/EventThumbnailSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="2">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
