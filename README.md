@@ -24,4 +24,5 @@ A node server is provided, run "npm install" and then either "server.sh" from th
 
 Navigate your browser to `http://localhost:8000/` to see the app running in your browser. You may have to add the page to the url such as CompileSample.html if you wanna check out some sample pages I madde, which are not related to the event registration but demostrating different directives of Angular.
 
-
+### Note:
+If you have any problems running this code, please feel free to contact me through my [email](kevlai22@uw.edu)
